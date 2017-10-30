@@ -1,0 +1,24 @@
+{
+  "name": "bessie-service",
+  "version": "1.0.0",
+  "description": "playing with serverless",
+  "main": "handler.js",
+  "dependencies": {
+    "serverless": "^1.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy:dev": "serverless deploy --stage dev",
+    "deploy:prod": "serverless deploy --stage prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambchan/test-serverless.git"
+  },
+  "author": "bessie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambchan/test-serverless/issues"
+  },
+  "homepage": "https://github.com/iambchan/test-serverless#readme"
+}
